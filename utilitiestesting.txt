@@ -1,0 +1,20 @@
+#define _CRT_SECURE_NO_DEPRECATE
+
+#include "utilities.h"
+#include <iostream>
+#include <fstream>
+#include <cstring>
+#include <cctype>
+#include <random>
+#include <utility>
+using namespace std;
+const char WORDFILENAME[] = "words.txt";
+
+	int loadWords(char words[][7], int maxWords)
+	{
+	    if (maxWords < 2)
+	        return 0;
+	    strcpy(words[0], "eager");
+	    strcpy(words[1], "goose");
+	    return 2;
+	}
