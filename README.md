@@ -6,5 +6,5 @@ how many letters of that word match with the secret word along with its position
 pebbles indicates how many letters of the guessed word matches with the secret word but does not
 match with the secret word's positioning.
 
-This project was producted December 2015 for my Computer Science 31 project. The Utilities.cpp file was given
+This project was produced December 2015 for my Computer Science 31 project. The Utilities.cpp file was given
 to me by Professor Smallberg.
